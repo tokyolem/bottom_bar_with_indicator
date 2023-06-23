@@ -1,0 +1,19 @@
+name: bottom_bar_with_indicator
+description: Bottom navigation panel with top indicator.
+version: 0.0.1
+license: MIT
+homepage: https://pub.dev/packages/bottom_bar_with_indicator
+repository: https://github.com/tokyolem/bottom_bar_with_indicator
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0

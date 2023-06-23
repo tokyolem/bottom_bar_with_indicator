@@ -1,0 +1,2 @@
+export 'package:bottom_bar_with_indicator/bottom_bar/bottom_bar_with_indicator.dart';
+export 'package:bottom_bar_with_indicator/bottom_bar/bar_with_indicator_theme_data.dart';
