@@ -140,7 +140,7 @@ class _BarContainerState extends State<_BarContainer>
 
     return isMobile
         ? widget.items.length >= 5 && constraints.maxWidth < 400 ||
-            widget.items.length >= 10
+            widget.items.length >= 8
         : constraints.maxWidth <
             widget.items.length * BarDimensions.barItemWidth + 10;
   }
