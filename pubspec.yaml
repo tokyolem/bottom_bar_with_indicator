@@ -1,12 +1,12 @@
 name: bottom_bar_with_indicator
 description: Flexible, highly customizable bottom navigation bar with top indicator.
-version: 0.0.1
+version: 0.0.2
 license: MIT
 homepage: https://pub.dev/packages/bottom_bar_with_indicator
 repository: https://github.com/tokyolem/bottom_bar_with_indicator
 
 environment:
-  sdk: '>=3.0.3 <4.0.0'
+  sdk: '>=3.0.0 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
