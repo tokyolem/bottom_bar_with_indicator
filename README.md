@@ -7,7 +7,7 @@ Click [**here**](https://github.com/tokyolem/bottom_bar_with_indicator/blob/main
 Add it to your `pubspec.yaml` file:
 ```yml
 dependencies:
-  bottom_bar_with_indicator: ^0.0.1
+  bottom_bar_with_indicator: ^0.0.2
 ```
 Install packages from the command line
 ```

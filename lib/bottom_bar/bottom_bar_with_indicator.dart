@@ -102,12 +102,6 @@ class _BarContainerState extends State<_BarContainer>
                     ? null
                     : Colors.transparent,
               ),
-              indicatorPadding: EdgeInsets.symmetric(
-                horizontal: isScrollable
-                    ? BarDimensions.large
-                    : constraints.maxWidth /
-                        (widget.items.length * widget.items.length),
-              ),
               indicator: UnderlineTabIndicator(
                 borderSide: BorderSide(
                   color: BarWithIndicatorTheme.of(context).activeColor,
@@ -145,7 +139,8 @@ class _BarContainerState extends State<_BarContainer>
     final isMobile = Platform.isAndroid || Platform.isIOS;
 
     return isMobile
-        ? widget.items.length >= 5 && constraints.maxWidth < 400
+        ? widget.items.length >= 5 && constraints.maxWidth < 400 ||
+            widget.items.length >= 8
         : constraints.maxWidth <
             widget.items.length * BarDimensions.barItemWidth + 10;
   }
